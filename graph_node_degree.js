@@ -12,6 +12,9 @@ d3.selectAll('g.node')
 // Interesting loop
 // Each link has a source or target
 // d.source.degree singles the source node and add to its degree
+// Logic:
+// d.source -> Node
+// d.source.degree ->  is Node.degree
 
 links.forEach(function(d){
     d.source.degree += 1;
